@@ -23,3 +23,15 @@ Linux knowledge is essential for:
 - Troubleshooting production environments
 
 ---
+
+## ✨ Features of Linux
+
+- Open Source and Free
+- Multiuser Operating System
+- Multitasking Support
+- Secure and Stable
+- Highly Customizable
+- Powerful Command-Line Interface (CLI)
+- Excellent Networking Capabilities
+
+---
