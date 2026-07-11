@@ -6,4 +6,20 @@ Linux is an **open-source, Unix-like operating system kernel** created by **Linu
 
 ---
 
-## 🚀 Why Learn Linux for DevOps? Most DevOps tools and cloud platforms run on Linux, including: - Docker - Kubernetes - Jenkins - Ansible - AWS EC2 Instances - Nginx and Apache Web Servers Linux knowledge is essential for: - Managing servers - Automating tasks - Monitoring systems - Troubleshooting production environments ---
+## 🚀 Why Learn Linux for DevOps?
+
+Most DevOps tools and cloud platforms run on Linux, including: 
+- Docker
+- Kubernetes
+- Jenkins
+- Ansible
+- AWS EC2 Instances
+- Nginx and Apache Web Servers
+
+Linux knowledge is essential for: 
+- Managing servers
+- Automating tasks
+- Monitoring systems
+- Troubleshooting production environments
+
+---
