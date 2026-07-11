@@ -37,7 +37,7 @@ Linux knowledge is essential for:
 ---
 ## Linux Architecture
 
-![linux_architecture](images/linux-arcjitecture.png)
+![linux_architecture](../images/linux-arcjitecture.png)
 
 Components
 - Kernel: Core of Linux that manages hardware and system resources.
