@@ -39,3 +39,21 @@ The goal of this repository is to build a strong foundation in Linux concepts th
 - Visual Studio Code
 
 ---
+
+
+## 📂 Repository Contents
+
+| Topic | Link |
+|-------|------|
+| 🐧 Linux Introduction | [Open Folder](https://github.com/hemantpawar14/linux-for-devops/tree/main/01-linux-introduction) |
+| 📁 File System | [Open Folder](https://github.com/hemantpawar14/linux-for-devops/tree/main/02-file-system) |
+| 🔐 File Permissions | [Open Folder](https://github.com/hemantpawar14/linux-for-devops/tree/main/03-file-permissions) |
+| 👥 User Management | [Open Folder](https://github.com/hemantpawar14/linux-for-devops/tree/main/04-user-management) |
+| 📦 Package Management | [Open Folder](https://github.com/hemantpawar14/linux-for-devops/tree/main/05-package-management) |
+| ⚙️ Process Management | [Open Folder](https://github.com/hemantpawar14/linux-for-devops/tree/main/06-process-management) |
+| 🌐 Networking | [Open Folder](https://github.com/hemantpawar14/linux-for-devops/tree/main/07-networking) |
+| 📜 Shell Scripting | [Open Folder](https://github.com/hemantpawar14/linux-for-devops/tree/main/08-shell-scripting) |
+| 🛠️ System Services | [Open Folder](https://github.com/hemantpawar14/linux-for-devops/tree/main/09-system-services) |
+| 🚀 Projects | [Open Folder](https://github.com/hemantpawar14/linux-for-devops/tree/main/10-projects) |
+| 🖼️ Images | [Open Folder](https://github.com/hemantpawar14/linux-for-devops/tree/main/images) |
+
