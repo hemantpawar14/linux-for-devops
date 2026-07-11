@@ -67,3 +67,41 @@ Components
 | `/media` | Mount point for removable devices like USB drives and CDs. |
 
 ---
+
+## 💻 Basic Linux Commands
+
+| Command | Description |
+|---------|-------------|
+| `pwd` | Display the current working directory |
+| `ls` | List files and directories |
+| `ls -l` | List files in long format |
+| `ls -la` | List all files, including hidden files |
+| `cd directory_name` | Change to a specific directory |
+| `cd ..` | Move to the parent directory |
+| `cd ~` | Move to the home directory |
+| `mkdir directory_name` | Create a new directory |
+| `touch file_name` | Create an empty file |
+| `cat file_name` | Display the contents of a file |
+| `clear` | Clear the terminal screen |
+| `whoami` | Display the current username |
+| `hostname` | Display the system hostname |
+| `date` | Display the current date and time |
+| `man command` | Display the manual page of a command |
+
+### Examples
+
+```bash
+pwd
+ls
+ls -la
+cd Documents
+cd ..
+mkdir devops
+touch notes.txt
+cat notes.txt
+whoami
+hostname
+date
+clear
+man ls
+```
