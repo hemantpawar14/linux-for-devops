@@ -57,3 +57,45 @@ The goal of this repository is to build a strong foundation in Linux concepts th
 | 🚀 Projects | [Open Folder](https://github.com/hemantpawar14/linux-for-devops/tree/main/10-projects) |
 | 🖼️ Images | [Open Folder](https://github.com/hemantpawar14/linux-for-devops/tree/main/images) |
 
+---
+
+## 🎯 Why Linux for DevOps?
+
+Linux powers the majority of:
+
+- Cloud Servers
+- Docker Containers
+- Kubernetes Clusters
+- CI/CD Pipelines
+- Web Servers
+- Enterprise Infrastructure
+
+A solid understanding of Linux is one of the most important skills for becoming a DevOps Engineer.
+
+---
+
+## 📈 Learning Progress
+
+- [x] Linux Introduction
+- [ ] File System
+- [ ] File Permissions
+- [ ] User Management
+- [ ] Package Management
+- [ ] Process Management
+- [ ] Networking
+- [ ] Shell Scripting
+- [ ] Mini Projects
+
+---
+
+## 🤝 Connect With Me
+
+**Hemant Pawar**
+
+- GitHub: https://github.com/hemantpawar14
+- LinkedIn: https://www.linkedin.com/in/hemant-pawar
+
+---
+
+⭐ If you find this repository helpful, feel free to star it and follow my learning journey in Linux and DevOps.
+
