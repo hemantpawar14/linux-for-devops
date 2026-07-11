@@ -35,4 +35,12 @@ Linux knowledge is essential for:
 - Excellent Networking Capabilities
 
 ---
+## Linux Architecture
 
+![linux architecture](images/linux_architecture)
+
+Components
+- Kernel: Core of Linux that manages hardware and system resources.
+- Shell: Interface between the user and the kernel.
+- Applications: Programs such as browsers, editors, and utilities.
+- Hardware: CPU, memory, storage, and network devices.
