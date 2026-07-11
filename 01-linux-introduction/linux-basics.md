@@ -44,3 +44,26 @@ Components
 - Shell: Interface between the user and the kernel.
 - Applications: Programs such as browsers, editors, and utilities.
 - Hardware: CPU, memory, storage, and network devices.
+---
+## 📂 Important Linux Directories
+
+| Directory | Description |
+|-----------|-------------|
+| `/` | Root directory. Everything in Linux starts from here. |
+| `/home` | Contains personal directories for users. |
+| `/root` | Home directory of the root (administrator) user. |
+| `/etc` | Stores system configuration files. |
+| `/bin` | Essential user commands like `ls`, `cp`, `mv`, `cat`. |
+| `/sbin` | System administration commands like `fdisk`, `reboot`. |
+| `/usr` | User applications, libraries, and documentation. |
+| `/var` | Variable data such as logs, cache, and mail files. |
+| `/tmp` | Temporary files created by applications and users. |
+| `/dev` | Represents hardware devices as files (disks, terminals, USB devices). |
+| `/proc` | Virtual file system containing process and kernel information. |
+| `/boot` | Files required to boot the Linux operating system. |
+| `/lib` | Essential shared libraries required by system programs. |
+| `/opt` | Optional third-party software and applications. |
+| `/mnt` | Temporary mount point for file systems and devices. |
+| `/media` | Mount point for removable devices like USB drives and CDs. |
+
+---
