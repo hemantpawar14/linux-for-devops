@@ -108,4 +108,4 @@ man ls
 
 ## Hands On Practice
 
-![linux_commands](images/Screenshot 2026-07-12 155337.png)
+![linux_commands](../images/Screenshot 2026-07-12 155337.png)
