@@ -117,6 +117,18 @@ ls -la
 ```
 ![linux_commands](../images/commands1.png)
 
+```text
+echo
+cat
+sort
+sort -r
+```
 ![linux_commands](../images/commands2.png)
 
+
+```text
+cp
+cp -r
+cd ..
+```
 ![linux_commands](../images/commands3.png)
