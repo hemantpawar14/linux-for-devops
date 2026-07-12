@@ -114,12 +114,13 @@ mkdir
 ls
 ls -l
 ls -la
+touch
 ```
 ![linux_commands](../images/commands1.png)
 
 ```text
 echo
-cat
+cat , zcat
 sort
 sort -r
 ```
@@ -132,3 +133,27 @@ cp -r
 cd ..
 ```
 ![linux_commands](../images/commands3.png)
+
+## Note:
+
+Bellow All this Commands I learn & Undersatand with *Hands-on-practice*  but unfortunately i am not adding screenshots for some reason!! 
+
+```text
+pwd
+cd ~ 
+mv
+mv -r
+clear
+rm
+rm -r
+ln (hardlink)
+ln -s (softlink)
+wc (word Count) , wc -l, wc -w
+less
+more
+head
+tail, tail -f
+cut
+tree
+
+```
