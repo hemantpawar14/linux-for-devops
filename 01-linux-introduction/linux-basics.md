@@ -106,8 +106,15 @@ clear
 man ls
 ```
 
-## Hands On Practice
+## Hands On Practice (ScreenShots)
 
+```text
+cd
+mkdir
+ls
+ls -l
+ls -la
+```
 ![linux_commands](../images/commands1.png)
 
 ![linux_commands](../images/commands2.png)
