@@ -182,7 +182,7 @@ rm -r project
 
 ---
 
-# 📂 Copy Files (`cp`)
+## 📂 Copy Files (`cp`)
 
 Copies files or directories.
 
@@ -200,6 +200,86 @@ cp -r project backup_project
 ```
 
 ---
+
+## 📂 Move or Rename (`mv`)
+
+Moves files/directories or renames them.
+
+### Syntax
+
+```bash
+mv source destination
+```
+
+### Examples
+
+```bash
+mv notes.txt docs/
+mv old.txt new.txt
+```
+
+---
+
+## 📂 Display Directory Tree (`tree`)
+
+Displays files and directories in a tree structure.
+
+### Syntax
+
+```bash
+tree
+```
+
+### Example
+
+```text
+project/
+├── README.md
+├── notes
+│   └── linux.md
+└── images
+```
+
+---
+
+# 📂 Clear Terminal (`clear`)
+
+Clears the terminal screen.
+
+```bash
+clear
+```
+
+Shortcut:
+
+```text
+Ctrl + L
+```
+
+---
+
+# 📂 Command Summary
+
+| Command  | Purpose                      |
+| -------- | ---------------------------- |
+| `pwd`    | Show current directory       |
+| `ls`     | List files and folders       |
+| `ls -l`  | Detailed list                |
+| `ls -la` | Show hidden files            |
+| `cd`     | Change directory             |
+| `mkdir`  | Create directory             |
+| `touch`  | Create file                  |
+| `cp`     | Copy files/directories       |
+| `mv`     | Move or rename files         |
+| `rm`     | Delete files                 |
+| `rmdir`  | Delete empty directory       |
+| `rm -r`  | Delete directory recursively |
+| `tree`   | Display directory tree       |
+| `clear`  | Clear terminal               |
+
+---
+
+
 
 
 
