@@ -282,9 +282,9 @@ Ctrl + L
 
 ## Hands On Practice
 
-![linux-file-commands](../images/day2-1)
-![linux-file-commands](../images/day2-2)
-![linux-file-commands](../images/day2-3)
-![linux-file-commands](../images/day2-4)
+![linux-file-commands](../images/day2-1.png)
+![linux-file-commands](../images/day2-2.png)
+![linux-file-commands](../images/day2-3.png)
+![linux-file-commands](../images/day2-4.png)
 
 
