@@ -104,3 +104,103 @@ mkdir -p DevOps/Linux/Basics
 ---
 
 
+## 📂 Create Empty File (`touch`)
+
+Creates an empty file or updates the timestamp.
+
+### Syntax
+
+```bash
+touch filename
+```
+
+### Example
+
+```bash
+touch notes.txt
+touch file1.txt file2.txt
+```
+
+---
+
+## 📂 Remove File (`rm`)
+
+Deletes files.
+
+### Syntax
+
+```bash
+rm filename
+```
+
+### Examples
+
+```bash
+rm notes.txt
+rm -i notes.txt
+rm -f notes.txt
+```
+
+| Option | Description             |
+| ------ | ----------------------- |
+| `-i`   | Confirm before deleting |
+| `-f`   | Force delete            |
+
+---
+
+## 📂 Remove Directory (`rmdir`)
+
+Deletes an empty directory.
+
+### Syntax
+
+```bash
+rmdir directory_name
+```
+
+### Example
+
+```bash
+rmdir test
+```
+
+---
+
+## 📂 Remove Directory Recursively
+
+Delete a directory along with all its contents.
+
+```bash
+rm -r directory_name
+```
+
+Example
+
+```bash
+rm -r project
+```
+
+---
+
+# 📂 Copy Files (`cp`)
+
+Copies files or directories.
+
+### Syntax
+
+```bash
+cp source destination
+```
+
+### Examples
+
+```bash
+cp notes.txt backup.txt
+cp -r project backup_project
+```
+
+---
+
+
+
+
