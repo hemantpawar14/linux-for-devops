@@ -281,10 +281,47 @@ Ctrl + L
 
 
 ## Hands On Practice
+image 1
+```bash
+pwd
+mkdir
+ls
+ls -l 
+ls -la
 
+```
 ![linux-file-commands](../images/day2-1.png)
+
+image 2
+```bash
+cd
+cd ..
+cd ~
+cd /
+touch
+rm
+rm -i
+rmdir
+
+```
 ![linux-file-commands](../images/day2-2.png)
+
+
+image 3
+```bash
+cp
+cp -r
+clear
+```
+
 ![linux-file-commands](../images/day2-3.png)
+
+image 4
+```bash
+mv
+tree
+
+```
 ![linux-file-commands](../images/day2-4.png)
 
 
