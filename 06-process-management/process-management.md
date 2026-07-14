@@ -46,3 +46,7 @@ ps -u username
 ```
 
 ---
+
+## Hands-On-Practice
+![process_management_cd](../images/day3-ps.png)
+![process_management_cd](../images/day3-ps-e.png)
