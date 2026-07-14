@@ -24,3 +24,54 @@ Networking is one of the most important areas of Linux system administration and
 | **rsync** | Synchronize files and directories efficiently between local and remote systems. |
 
 ---
+
+# 🔐 SSH (Secure Shell)
+
+SSH is a secure protocol used to remotely access Linux servers over a network.
+
+### Syntax
+
+```bash
+ssh username@server_ip
+```
+
+### Example
+
+```bash
+ssh ubuntu@192.168.1.100
+```
+
+### Connect using a Private Key
+
+```bash
+ssh -i ~/.ssh/id_rsa ubuntu@192.168.1.100
+```
+
+### Exit SSH Session
+
+```bash
+exit
+```
+
+### Generate SSH Key Pair
+
+```bash
+ssh-keygen
+```
+
+### Copy Public Key to Remote Server
+
+```bash
+ssh-copy-id username@server_ip
+```
+
+### Common SSH Options
+
+| Command | Description |
+|----------|-------------|
+| `ssh user@host` | Connect to remote server |
+| `ssh -p 2222 user@host` | Connect using custom port |
+| `ssh -i key.pem user@host` | Use private key |
+| `exit` | Close SSH session |
+
+---
