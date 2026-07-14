@@ -79,3 +79,47 @@ ssh-copy-id username@server_ip
 ## Hands-On-Practice
 
 ![ssh_networking](../images/day2-ssh.png)
+
+☝️ This image displays a terminal window showing a user successfully connecting to a remote AWS EC2 Linux server from a Windows host using PowerShell.
+
+Here is a structured breakdown of the steps and details visible in the image:
+
+1. Local Navigation & File Verification :
+- Command
+```bash
+cd downloads
+```
+> The user navigates into the local Windows downloads directory.
+- Command
+```bash
+ls linux-dev.pem
+```
+> The user verifies that the private key file (linux-dev.pem), required for AWS authentication, is present in the folder.
+
+
+2. File Permissions & SSH Connection :
+- Command
+```bash
+chmod 400 "linux-dev.pem
+```
+> The user attempts to restrict file permissions on the key file (a standard requirement for SSH keys to prevent them from being too publicly accessible).
+
+- Command
+```bash
+ssh -i "linux-dev.pem" ubuntu@://amazonaws.com
+```
+> The user executes the SSH command to connect securely as the ubuntu user to an AWS EC2 instance located in the Mumbai region (ap-south-1).
+
+3. Remote Server Welcome & System Banner
+> The connection is successful, and the terminal displays the Ubuntu 26.04 LTS (GNU/Linux 7.0.0-1006-aws x86_64) welcome banner alongside real-time system metrics:
+- System Load: 0.0
+- Disk Usage: 31.5% of 6.61GB
+- Memory Usage: 25%
+- Private IP Address: 172.31.46.238
+
+4. Active Remote Prompt
+
+> The last line shows the terminal prompt switching from Windows PowerShell to the remote Linux bash prompt: ubuntu@ip-172-31-46-238:~$, indicating that the user is now ready to run commands directly on the cloud server.
+
+
+
