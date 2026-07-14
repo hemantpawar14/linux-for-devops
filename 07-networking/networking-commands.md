@@ -78,4 +78,4 @@ ssh-copy-id username@server_ip
 
 ## Hands-On-Practice
 
-![ssh_networking](../images/day2-shh.png)
+![ssh_networking](../images/day2-ssh.png)
