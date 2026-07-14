@@ -75,3 +75,7 @@ ssh-copy-id username@server_ip
 | `exit` | Close SSH session |
 
 ---
+
+## Hands-On-Practice
+
+![ssh_networking](../images/day2-shh.png)
