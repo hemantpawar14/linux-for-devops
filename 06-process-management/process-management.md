@@ -50,3 +50,58 @@ ps -u username
 ## Hands-On-Practice
 ![process_management_cd](../images/day3-ps.png)
 ![process_management_cd](../images/day3-ps-e.png)
+
+
+## 📊 top
+
+Displays running processes along with dynamic, real-time views of CPU, memory, and overall system usage.
+
+### Syntax
+```bash
+top
+```
+
+### Shortcuts
+* Press `q` to exit the interactive session.
+
+---
+
+## ❌ kill
+
+Terminates a running process gracefully or forcefully using its Process ID (PID).
+
+### Syntax
+```bash
+kill [options] PID
+```
+
+### Examples
+```bash
+# Gracefully terminate a process (Sends SIGTERM)
+kill 1234
+
+# Forcefully terminate an unresponsive process (Sends SIGKILL)
+kill -9 1234
+```
+
+---
+
+## 🔄 nohup
+
+Runs a command immune to hangups, allowing it to run in the background even after you log out.
+
+### Syntax
+```bash
+nohup command &
+```
+
+### Example
+```bash
+nohup python3 app.py &
+```
+> **Note:** Standard output is redirected and saved to a file named `nohup.out` by default.
+
+---
+
+
+
