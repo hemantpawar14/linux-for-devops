@@ -491,4 +491,16 @@ sudo poweroff
 
 ---
 
+# Summary
 
+In this guide, you learned:
+
+- Retrieve system information
+- Monitor CPU, memory, and disk usage
+- View logged-in users
+- Check storage devices
+- Manage environment variables
+- Access Linux documentation
+- Shut down and reboot the system
+
+These commands form the foundation of Linux system administration and are commonly used in DevOps, cloud, and server management.
