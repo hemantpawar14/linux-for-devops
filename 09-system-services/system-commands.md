@@ -71,3 +71,57 @@ ubuntu-server
 
 ---
 
+
+## 3. hostnamectl
+
+Displays or changes the hostname.
+
+### View hostname
+
+```bash
+hostnamectl
+```
+
+### Change hostname
+
+```bash
+sudo hostnamectl set-hostname devops-server
+```
+
+---
+
+## 4. arch
+
+Displays the system architecture.
+
+```bash
+arch
+```
+
+Output
+
+```
+x86_64
+```
+
+---
+
+## 5. lscpu
+
+Displays detailed CPU information.
+
+```bash
+lscpu
+```
+
+Example Output
+
+```
+Architecture:        x86_64
+CPU(s):              8
+Model name:          Intel Core i5
+```
+
+---
+
+
