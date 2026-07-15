@@ -138,8 +138,12 @@ Example Output
 14:45:03 up 2 days, 4:12, 2 users, load average: 0.20, 0.15, 0.12
 ```
 
----
 
+
+## Hands-On-Practice
+![Sys_info_cmd](../images/sys-info-cmd.png)
+
+---
 # Date & Time Commands
 
 | Command | Description |
@@ -187,8 +191,11 @@ Shows:
 - RTC Time
 - NTP Status
 
----
 
+## Hands-On-Practice
+![date_time_cmd](../images/date-time-cmd.png)
+
+---
 # User Information Commands
 
 | Command | Description |
@@ -362,8 +369,10 @@ sar -u
 
 Displays CPU usage statistics.
 
----
+## Hands-On-Practice
+![disk_cmd](../images/disk-cmd.png)
 
+---
 # Environment Commands
 
 | Command | Description |
@@ -454,6 +463,9 @@ man ls
 ```bash
 help cd
 ```
+## Hands-On-Practice
+![Utility_cmd](../images/utility-cmd.png)
+
 
 ---
 
