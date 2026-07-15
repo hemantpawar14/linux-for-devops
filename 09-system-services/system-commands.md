@@ -124,4 +124,19 @@ Model name:          Intel Core i5
 
 ---
 
+## 6. uptime
+
+Shows system uptime and load average.
+
+```bash
+uptime
+```
+
+Example Output
+
+```
+14:45:03 up 2 days, 4:12, 2 users, load average: 0.20, 0.15, 0.12
+```
+
+---
 
