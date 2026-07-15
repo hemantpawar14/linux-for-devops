@@ -19,3 +19,55 @@ System commands are used to retrieve information about the Linux operating syste
 
 ---
 
+
+## 1. uname
+
+Displays information about the Linux kernel and operating system.
+
+### Syntax
+
+```bash
+uname [OPTION]
+```
+
+### Common Options
+
+| Command | Description |
+|---------|-------------|
+| `uname` | Displays kernel name. |
+| `uname -a` | Displays all system information. |
+| `uname -r` | Displays kernel version. |
+| `uname -m` | Displays machine architecture. |
+
+### Example
+
+```bash
+uname -a
+```
+
+---
+
+## 2. hostname
+
+Displays the hostname of the system.
+
+### Syntax
+
+```bash
+hostname
+```
+
+### Example
+
+```bash
+hostname
+```
+
+Output
+
+```
+ubuntu-server
+```
+
+---
+
