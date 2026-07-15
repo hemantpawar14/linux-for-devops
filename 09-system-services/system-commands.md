@@ -140,3 +140,355 @@ Example Output
 
 ---
 
+# Date & Time Commands
+
+| Command | Description |
+|---------|-------------|
+| `date` | Displays current date and time. |
+| `cal` | Displays a calendar. |
+| `timedatectl` | Displays or configures time settings. |
+
+---
+
+## date
+
+```bash
+date
+```
+
+Example
+
+```
+Tue Jul 14 15:20:10 IST 2026
+```
+
+---
+
+## cal
+
+```bash
+cal
+```
+
+Displays the current month's calendar.
+
+---
+
+## timedatectl
+
+```bash
+timedatectl
+```
+
+Shows:
+
+- Current Time
+- Time Zone
+- RTC Time
+- NTP Status
+
+---
+
+# User Information Commands
+
+| Command | Description |
+|---------|-------------|
+| `whoami` | Displays current username. |
+| `id` | Displays UID, GID, and groups. |
+| `who` | Shows logged-in users. |
+| `w` | Shows logged-in users and their activities. |
+| `groups` | Displays user groups. |
+| `last` | Shows login history. |
+| `lastlog` | Displays last login of all users. |
+
+---
+
+## whoami
+
+```bash
+whoami
+```
+
+Output
+
+```
+hemant
+```
+
+---
+
+## id
+
+```bash
+id
+```
+
+Example
+
+```
+uid=1000 gid=1000 groups=1000,sudo
+```
+
+---
+
+## who
+
+```bash
+who
+```
+
+Lists all logged-in users.
+
+---
+
+## w
+
+```bash
+w
+```
+
+Shows:
+
+- Logged-in users
+- Login time
+- Running commands
+- CPU usage
+
+---
+
+# Disk & Storage Commands
+
+| Command | Description |
+|---------|-------------|
+| `df` | Displays filesystem disk usage. |
+| `du` | Displays directory size. |
+| `lsblk` | Lists block devices. |
+| `blkid` | Displays filesystem UUIDs. |
+
+---
+
+
+## df
+
+```bash
+df -h
+```
+
+Example
+
+```
+Filesystem      Size  Used Avail Use%
+/dev/sda1        50G   20G   28G  42%
+```
+
+---
+
+## du
+
+```bash
+du -sh Downloads
+```
+
+Displays folder size.
+
+---
+
+## lsblk
+
+```bash
+lsblk
+```
+
+Lists all disks and partitions.
+
+---
+
+## blkid
+
+```bash
+sudo blkid
+```
+
+Displays UUID and filesystem type.
+
+---
+
+
+## free
+
+```bash
+free -h
+```
+
+Example
+
+```
+Memory:
+Total Used Free Shared Buff Cache Available
+```
+
+---
+
+## vmstat
+
+```bash
+vmstat
+```
+
+Displays:
+
+- Memory
+- CPU
+- Swap
+- I/O
+
+---
+
+## iostat
+
+```bash
+iostat
+```
+
+Shows CPU and disk performance.
+
+---
+
+## sar
+
+```bash
+sar -u
+```
+
+Displays CPU usage statistics.
+
+---
+
+# Environment Commands
+
+| Command | Description |
+|---------|-------------|
+| `env` | Displays all environment variables. |
+| `printenv` | Displays specific environment variables. |
+| `export` | Sets environment variables. |
+
+---
+
+## env
+
+```bash
+env
+```
+
+---
+
+## printenv
+
+```bash
+printenv PATH
+```
+
+---
+
+## export
+
+```bash
+export JAVA_HOME=/usr/lib/jvm/java-17
+```
+
+---
+
+
+# Utility Commands
+
+| Command | Description |
+|---------|-------------|
+| `history` | Displays command history. |
+| `which` | Shows executable path. |
+| `whereis` | Locates binaries and man pages. |
+| `man` | Displays manual pages. |
+| `help` | Displays help for shell built-ins. |
+
+---
+
+## history
+
+```bash
+history
+```
+
+---
+
+## which
+
+```bash
+which python3
+```
+
+Output
+
+```
+/usr/bin/python3
+```
+
+---
+
+## whereis
+
+```bash
+whereis ssh
+```
+
+---
+
+## man
+
+```bash
+man ls
+```
+
+---
+
+## help
+
+```bash
+help cd
+```
+
+---
+
+# System Shutdown Commands
+
+| Command | Description |
+|---------|-------------|
+| `shutdown` | Shuts down the system. |
+| `reboot` | Restarts the system. |
+| `poweroff` | Powers off the system. |
+
+---
+
+## Shutdown Immediately
+
+```bash
+sudo shutdown -h now
+```
+
+---
+
+## Restart System
+
+```bash
+sudo reboot
+```
+
+---
+
+## Power Off
+
+```bash
+sudo poweroff
+```
+
+---
+
+
