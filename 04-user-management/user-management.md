@@ -85,3 +85,30 @@ sudo passwd john
 ```
 
 ---
+
+## 5. Add User to a Group
+
+```bash
+sudo usermod -aG developers john
+```
+
+- `-a` → Append
+- `-G` → Secondary group
+
+---
+## 6. View User Groups
+
+```bash
+groups john
+```
+
+---
+
+## 7. Create a New Group
+
+```bash
+sudo groupadd developers
+```
+
+---
+
