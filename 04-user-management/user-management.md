@@ -78,3 +78,10 @@ sudo adduser john
 
 ---
 
+## 4. Set User Password
+
+```bash
+sudo passwd john
+```
+
+---
