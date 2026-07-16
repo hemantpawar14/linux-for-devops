@@ -125,3 +125,24 @@ sudo userdel -r john
 ```
 
 ---
+
+## 9. Delete a Group
+
+```bash
+sudo groupdel developers
+```
+
+---
+
+## 10. Switch User
+
+```bash
+su john
+```
+
+Become root:
+
+```bash
+sudo su
+```
+
