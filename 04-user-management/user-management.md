@@ -62,3 +62,19 @@ uid=1000(hemant) gid=1000(hemant) groups=1000(hemant),27(sudo)
 ```
 
 ---
+
+
+## 3. Create a New User
+
+```bash
+sudo useradd john
+```
+
+or (Ubuntu)
+
+```bash
+sudo adduser john
+```
+
+---
+
