@@ -32,3 +32,20 @@ User and Group Management in Linux is used to create, modify, manage, and remove
 | `finger` | Displays user information (if installed) | `finger john` |
 
 ---
+
+# 🔹 Frequently Used Commands
+
+## 1. Display Current User
+
+```bash
+whoami
+```
+
+**Output**
+
+```text
+hemant
+```
+
+---
+
