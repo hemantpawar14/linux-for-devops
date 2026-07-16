@@ -146,3 +146,107 @@ Become root:
 sudo su
 ```
 
+## 11. Execute Command as Administrator
+
+```bash
+sudo apt update
+```
+
+---
+
+## 12. View Logged-in Users
+
+```bash
+who
+```
+
+or
+
+```bash
+users
+```
+
+---
+
+## 13. View Login History
+
+```bash
+last
+```
+
+---
+
+## 14. Add User to sudo Group
+
+Ubuntu/Debian:
+
+```bash
+sudo usermod -aG sudo john
+```
+
+RHEL/CentOS:
+
+```bash
+sudo usermod -aG wheel john
+```
+
+---
+# 📂 Important Files
+
+| File | Purpose |
+|------|----------|
+| `/etc/passwd` | Stores user account information |
+| `/etc/shadow` | Stores encrypted user passwords |
+| `/etc/group` | Stores group information |
+| `/etc/gshadow` | Stores secure group passwords |
+
+---
+
+# 🔐 User Management Workflow
+
+```text
+Create User
+      │
+      ▼
+Set Password
+      │
+      ▼
+Create Group (Optional)
+      │
+      ▼
+Add User to Group
+      │
+      ▼
+Verify User & Groups
+      │
+      ▼
+Manage Permissions
+```
+
+---
+
+# 💡 DevOps Use Cases
+
+- Create users for developers and administrators.
+- Assign users to project-specific groups.
+- Grant sudo privileges to authorized users.
+- Manage secure access to Linux servers.
+- Verify user identities and group memberships.
+- Remove inactive users to improve security.
+
+---
+
+# 📝 Best Practices
+
+- Use `sudo` instead of logging in directly as the root user.
+- Assign users to groups rather than granting permissions individually.
+- Remove unused user accounts regularly.
+- Follow the Principle of Least Privilege (PoLP).
+- Use strong passwords and SSH key authentication for remote access.
+- Regularly audit user accounts and group memberships.
+
+---
+
+# 📌 Summary
+
+User and Group Management commands help Linux administrators securely manage user accounts, groups, permissions, and access control. These commands are fundamental for Linux system administration, server management, and DevOps environments.
