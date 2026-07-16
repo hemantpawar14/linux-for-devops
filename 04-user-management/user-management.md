@@ -112,3 +112,16 @@ sudo groupadd developers
 
 ---
 
+## 8. Delete a User
+
+```bash
+sudo userdel john
+```
+
+Delete user along with home directory:
+
+```bash
+sudo userdel -r john
+```
+
+---
