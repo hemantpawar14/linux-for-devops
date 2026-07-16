@@ -49,3 +49,16 @@ hemant
 
 ---
 
+## 2. Display User Information
+
+```bash
+id
+```
+
+**Output**
+
+```text
+uid=1000(hemant) gid=1000(hemant) groups=1000(hemant),27(sudo)
+```
+
+---
