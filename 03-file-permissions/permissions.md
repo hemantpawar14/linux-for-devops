@@ -76,4 +76,51 @@ Breakdown:
 
 ---
 
+## Read Permission (r)
+
+Allows:
+
+- Open a file
+- View contents
+
+Example:
+
+```bash
+cat notes.txt
+```
+
+---
+
+## Write Permission (w)
+
+Allows:
+
+- Modify file
+- Delete file
+- Rename file
+
+Example:
+
+```bash
+echo "Linux" >> notes.txt
+```
+
+---
+
+## Execute Permission (x)
+
+Allows:
+
+- Execute script
+- Run executable
+
+Example:
+
+```bash
+./script.sh
+```
+
+---
+
+
 
