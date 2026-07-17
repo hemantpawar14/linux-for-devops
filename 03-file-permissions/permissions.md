@@ -378,3 +378,77 @@ Directories:
 
 
 
+# Special Permissions
+
+## SUID (Set User ID)
+
+Runs executable with owner's privileges.
+
+```bash
+chmod u+s filename
+```
+
+Numeric:
+
+```
+4xxx
+```
+
+Example:
+
+```bash
+chmod 4755 program
+```
+
+---
+
+## SGID (Set Group ID)
+
+Runs executable with group privileges.
+
+```bash
+chmod g+s filename
+```
+
+Numeric:
+
+```
+2xxx
+```
+
+Example:
+
+```bash
+chmod 2755 folder
+```
+
+---
+
+## Sticky Bit
+
+Used mainly on shared directories.
+
+Only the file owner can delete their files.
+
+Example:
+
+```bash
+chmod +t shared_folder
+```
+
+Numeric:
+
+```
+1xxx
+```
+
+Example:
+
+```bash
+chmod 1777 /shared
+```
+
+---
+
+
+
