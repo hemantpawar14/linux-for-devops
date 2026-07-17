@@ -452,9 +452,9 @@ chmod 1777 /shared
 
 # Hands-On-Practice
 
-![file_permissions](..images/file-permission1.png)
-![file_permissions](..images/file-permission2.png)
-![file_permissions](..images/file-permission3.png)
+![file_permissions](../images/file-permission1.png)
+![file_permissions](../images/file-permission2.png)
+![file_permissions](../images/file-permission3.png)
 
 
 # Best Practices
