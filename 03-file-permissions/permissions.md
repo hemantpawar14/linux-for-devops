@@ -223,3 +223,50 @@ ls -l script.sh
 
 ---
 
+# Symbolic Method
+
+Syntax
+
+```bash
+chmod [who][+/-/=][permission] file
+```
+
+Examples
+
+Add execute permission
+
+```bash
+chmod +x script.sh
+```
+
+Remove write permission
+
+```bash
+chmod -w notes.txt
+```
+
+Give user execute permission
+
+```bash
+chmod u+x script.sh
+```
+
+Remove execute from group
+
+```bash
+chmod g-x script.sh
+```
+
+Give others read permission
+
+```bash
+chmod o+r notes.txt
+```
+
+Give everyone read permission
+
+```bash
+chmod a+r notes.txt
+```
+
+---
