@@ -451,4 +451,39 @@ chmod 1777 /shared
 ---
 
 
+# Best Practices
+
+- Follow the Principle of Least Privilege.
+- Avoid using `777` unless absolutely necessary.
+- Use `755` for executable scripts and directories.
+- Use `644` for regular files.
+- Use `600` for confidential files (SSH keys, passwords).
+- Verify permissions after every change using `ls -l`.
+- Use recursive changes (`chmod -R`) with caution.
+- Prefer symbolic permissions (`u`, `g`, `o`) for small changes.
+
+---
+
+# Quick Command Reference
+
+| Command | Description |
+|----------|-------------|
+| `ls -l` | View file permissions |
+| `chmod 755 file` | Set numeric permissions |
+| `chmod +x file` | Add execute permission |
+| `chmod -w file` | Remove write permission |
+| `chmod u+x file` | Add execute permission to owner |
+| `chmod g-w file` | Remove write permission from group |
+| `chmod o+r file` | Give others read permission |
+| `chmod -R 755 dir` | Change permissions recursively |
+| `chown user file` | Change owner |
+| `chown user:group file` | Change owner and group |
+| `chgrp group file` | Change group ownership |
+| `umask` | Show default permission mask |
+
+---
+
+# Summary
+
+Linux file permissions are a fundamental security feature that control access to files and directories. Mastering permission management using commands like `chmod`, `chown`, `chgrp`, and `umask` helps protect system resources, enables secure collaboration, and is an essential skill for Linux administrators, DevOps engineers, and cloud professionals.
 
