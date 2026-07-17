@@ -225,6 +225,11 @@ Manage Permissions
 
 ---
 
+## Hands-On-Practice
+![User_management](../images/user-management1.png)
+![User_management](../images/user-management2.png)
+![User_management](../images/user-management3.png)
+
 # 💡 DevOps Use Cases
 
 - Create users for developers and administrators.
