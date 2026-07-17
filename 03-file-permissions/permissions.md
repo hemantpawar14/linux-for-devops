@@ -52,4 +52,28 @@ Breakdown:
 ---
 
 
+# File Types
+
+| Symbol | Meaning |
+|---------|----------|
+| - | Regular File |
+| d | Directory |
+| l | Symbolic Link |
+| c | Character Device |
+| b | Block Device |
+| p | Named Pipe |
+| s | Socket |
+
+---
+
+# Permission Types
+
+| Symbol | Permission | Value |
+|---------|------------|------|
+| r | Read | 4 |
+| w | Write | 2 |
+| x | Execute | 1 |
+
+---
+
 
