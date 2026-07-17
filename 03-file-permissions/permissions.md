@@ -12,3 +12,44 @@ Understanding file permissions is essential for:
 
 ---
 
+# Understanding File Permissions
+
+Every file and directory has:
+
+- Owner (User)
+- Group
+- Others (Everyone else)
+
+Permissions define what each of these users can do.
+
+---
+
+# Viewing File Permissions
+
+Use:
+
+```bash
+ls -l
+```
+
+Example:
+
+```bash
+-rwxr-xr-- 1 hemant developers 2048 Jul 17 notes.txt
+```
+
+Breakdown:
+
+```
+-rwxr-xr--
+│││ │ │
+│││ │ └── Others
+│││ └──── Group
+│└──────── Owner
+└───────── File Type
+```
+
+---
+
+
+
