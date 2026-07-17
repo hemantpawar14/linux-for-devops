@@ -270,3 +270,70 @@ chmod a+r notes.txt
 ```
 
 ---
+
+
+# Recursive Permission Change
+
+```bash
+chmod -R 755 project/
+```
+
+Changes permissions for all files and folders inside the directory.
+
+---
+
+
+# Recursive Permission Change
+
+```bash
+chmod -R 755 project/
+```
+
+Changes permissions for all files and folders inside the directory.
+
+---
+
+# Changing File Ownership (chown)
+
+Syntax
+
+```bash
+sudo chown username filename
+```
+
+Example
+
+```bash
+sudo chown hemant notes.txt
+```
+
+Change owner and group
+
+```bash
+sudo chown hemant:developers notes.txt
+```
+
+Verify
+
+```bash
+ls -l
+```
+
+---
+
+# Changing Group Ownership (chgrp)
+
+Syntax
+
+```bash
+sudo chgrp groupname filename
+```
+
+Example
+
+```bash
+sudo chgrp developers notes.txt
+```
+
+---
+
