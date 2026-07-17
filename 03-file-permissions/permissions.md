@@ -337,3 +337,44 @@ sudo chgrp developers notes.txt
 
 ---
 
+# Default Permissions (umask)
+
+The **umask** command controls the default permissions assigned to newly created files and directories.
+
+Check current umask:
+
+```bash
+umask
+```
+
+Example output:
+
+```bash
+0022
+```
+
+Default permissions:
+
+| Object | Default |
+|----------|----------|
+| File | 666 |
+| Directory | 777 |
+
+With umask `022`:
+
+Files:
+
+```
+666 - 022 = 644
+```
+
+Directories:
+
+```
+777 - 022 = 755
+```
+
+---
+
+
+
