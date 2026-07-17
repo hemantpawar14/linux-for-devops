@@ -200,3 +200,26 @@ Examples:
 
 ---
 
+
+# Changing Permissions (chmod)
+
+Syntax
+
+```bash
+chmod [permissions] filename
+```
+
+Example
+
+```bash
+chmod 755 script.sh
+```
+
+Verify
+
+```bash
+ls -l script.sh
+```
+
+---
+
