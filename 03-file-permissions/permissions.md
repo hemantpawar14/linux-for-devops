@@ -122,5 +122,42 @@ Example:
 
 ---
 
+# Permission Categories
+
+Linux divides permissions into three groups.
+
+| Category | Meaning |
+|-----------|----------|
+| User (u) | Owner of file |
+| Group (g) | Members of group |
+| Others (o) | Everyone else |
+
+Example:
+
+```
+-rwxr-xr--
+```
+
+Means
+
+Owner
+
+```
+rwx
+```
+
+Group
+
+```
+r-x
+```
+
+Others
+
+```
+r--
+```
+
+---
 
 
