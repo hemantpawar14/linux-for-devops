@@ -160,6 +160,21 @@ r--
 
 ---
 
+## Common Permission Values
+
+| Numeric | Symbolic | Meaning |
+|----------|----------|----------|
+| 777 | rwxrwxrwx | Everyone has full access |
+| 755 | rwxr-xr-x | Owner full access, others read & execute |
+| 700 | rwx------ | Owner only |
+| 644 | rw-r--r-- | Owner read/write, others read |
+| 600 | rw------- | Private file |
+| 444 | r--r--r-- | Read only |
+| 000 | --------- | No permissions |
+
+---
+
+
 # Numeric (Octal) Permissions
 
 Permission values:
