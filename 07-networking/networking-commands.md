@@ -282,3 +282,11 @@ scp -i linux-dev.pem nginx.conf ubuntu@ec2-ip:/etc/nginx/
 ```
 
 ---
+
+# Hands-on-Practice
+
+![Secure_copy](../images/SCP1.png)
+
+![Secure_copy](../images/SCP2.png)
+
+![Secure_copy](../images/SCP3.png)
