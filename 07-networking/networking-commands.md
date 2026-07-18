@@ -228,4 +228,23 @@ scp -r -i linux-dev.pem project ubuntu@192.168.1.10:/home/ubuntu/
 scp -r -i linux-dev.pem ubuntu@192.168.1.10:/home/ubuntu/project .
 ```
 
--
+---
+
+# 🔧 Useful Options
+
+| Option | Description |
+|---------|-------------|
+| -i | Identity (private key) |
+| -r | Copy directories recursively |
+| -P | Specify SSH port |
+| -v | Verbose output |
+| -C | Compress data during transfer |
+
+Example:
+
+```bash
+scp -P 2222 file.txt ubuntu@192.168.1.10:/home/ubuntu/
+```
+
+---
+
