@@ -174,3 +174,58 @@ scp -i linux-dev.pem notes.txt ubuntu@192.168.1.10:/home/ubuntu/
 
 ---
 
+
+# 📤 Copy Remote File to Local Machine
+
+### Syntax
+
+```bash
+scp -i key.pem username@server_ip:/path/file.txt .
+```
+
+### Example
+
+```bash
+scp -i linux-dev.pem ubuntu@192.168.1.10:/home/ubuntu/log.txt .
+```
+
+`.` means the current directory.
+
+---
+
+
+# 📤 Copy Remote File to Local Machine
+
+### Syntax
+
+```bash
+scp -i key.pem username@server_ip:/path/file.txt .
+```
+
+### Example
+
+```bash
+scp -i linux-dev.pem ubuntu@192.168.1.10:/home/ubuntu/log.txt .
+```
+
+`.` means the current directory.
+
+---
+
+# 📁 Copy Directory to Remote Server
+
+Use the **-r** option.
+
+```bash
+scp -r -i linux-dev.pem project ubuntu@192.168.1.10:/home/ubuntu/
+```
+
+---
+
+# 📁 Copy Directory from Remote Server
+
+```bash
+scp -r -i linux-dev.pem ubuntu@192.168.1.10:/home/ubuntu/project .
+```
+
+-
