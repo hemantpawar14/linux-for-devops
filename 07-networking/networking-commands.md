@@ -122,4 +122,23 @@ ssh -i "linux-dev.pem" ubuntu@://amazonaws.com
 > The last line shows the terminal prompt switching from Windows PowerShell to the remote Linux bash prompt: ubuntu@ip-172-31-46-238:~$, indicating that the user is now ready to run commands directly on the cloud server.
 
 
+---
+
+# 📂 SCP (Secure Copy Protocol)
+
+## 📖 What is SCP?
+
+**SCP (Secure Copy Protocol)** is a command-line utility used to securely transfer files and directories between:
+
+- Local machine ➜ Remote server
+- Remote server ➜ Local machine
+- Remote server ➜ Remote server
+
+SCP uses **SSH (Secure Shell)** for authentication and encryption, making file transfers secure.
+
+---
+
+
+
+
 
