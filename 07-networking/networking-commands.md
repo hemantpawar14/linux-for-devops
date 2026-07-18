@@ -248,3 +248,37 @@ scp -P 2222 file.txt ubuntu@192.168.1.10:/home/ubuntu/
 
 ---
 
+
+# 🌍 Real-World DevOps Use Cases
+
+✅ Upload application files to an EC2 instance
+
+```bash
+scp -i linux-dev.pem app.jar ubuntu@ec2-ip:/home/ubuntu/
+```
+
+---
+
+✅ Upload deployment scripts
+
+```bash
+scp -i linux-dev.pem deploy.sh ubuntu@ec2-ip:/home/ubuntu/
+```
+
+---
+
+✅ Download server logs
+
+```bash
+scp -i linux-dev.pem ubuntu@ec2-ip:/var/log/syslog .
+```
+
+---
+
+✅ Copy configuration files
+
+```bash
+scp -i linux-dev.pem nginx.conf ubuntu@ec2-ip:/etc/nginx/
+```
+
+---
