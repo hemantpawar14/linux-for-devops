@@ -138,7 +138,21 @@ SCP uses **SSH (Secure Shell)** for authentication and encryption, making file t
 
 ---
 
+## 🔹 Syntax
 
+```bash
+scp [options] source destination
+```
+
+---
+
+# 📥 Copy Local File to Remote Server
+
+### Syntax
+
+```bash
+scp -i key.pem file.txt username@server_ip:/path/
+```
 
 
 
