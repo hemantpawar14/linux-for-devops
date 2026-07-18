@@ -155,4 +155,22 @@ scp -i key.pem file.txt username@server_ip:/path/
 ```
 
 
+### Example
+
+```bash
+scp -i linux-dev.pem notes.txt ubuntu@192.168.1.10:/home/ubuntu/
+```
+
+### Explanation
+
+| Part | Meaning |
+|------|----------|
+| scp | Secure Copy command |
+| -i linux-dev.pem | SSH private key |
+| notes.txt | Local file |
+| ubuntu | Remote username |
+| 192.168.1.10 | Remote server IP |
+| /home/ubuntu/ | Destination directory |
+
+---
 
