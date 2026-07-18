@@ -290,5 +290,12 @@ scp -i linux-dev.pem nginx.conf ubuntu@ec2-ip:/etc/nginx/
 ![Secure_copy](../images/SCP2.png)
 
 - In Above images i am sending local file called "secrate_file.txt" sending to remote server using SCP (Secure Copy)
+---
+
 
 ![Secure_copy](../images/SCP3.png)
+
+- In Above Image i am sending directory called "linux-playground" from remote sever to Local system using SCP
+
+
+---
