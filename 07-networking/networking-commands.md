@@ -327,3 +327,39 @@ scp -i linux-dev.pem nginx.conf ubuntu@ec2-ip:/etc/nginx/
 It sends **ICMP (Internet Control Message Protocol) Echo Request** packets to the destination and waits for **Echo Reply** packets. Based on the response, it measures network connectivity and latency.
 
 ---
+
+## 🎯 Why Use Ping?
+
+- Verify network connectivity.
+- Check if a server or website is reachable.
+- Measure network latency (response time).
+- Troubleshoot network-related issues.
+- Test communication between devices.
+
+---
+
+## 📝 Syntax
+
+```bash
+ping [options] <hostname_or_ip>
+```
+
+---
+
+## 🚀 Basic Examples
+
+### 1. Ping a Website
+
+```bash
+ping google.com
+```
+
+Example Output:
+
+```text
+PING google.com (142.250.193.78) 56(84) bytes of data.
+64 bytes from 142.250.193.78: icmp_seq=1 ttl=117 time=22.5 ms
+64 bytes from 142.250.193.78: icmp_seq=2 ttl=117 time=21.8 ms
+```
+
+---
