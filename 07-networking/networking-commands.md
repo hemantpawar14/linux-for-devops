@@ -299,3 +299,20 @@ scp -i linux-dev.pem nginx.conf ubuntu@ec2-ip:/etc/nginx/
 
 
 ---
+
+# 💡 Best Practices
+
+- Never share your private key (`.pem`).
+- Use SSH key authentication instead of passwords.
+- Verify the destination path before copying.
+- Use `-r` only when copying directories.
+- Keep private key permissions secure (`chmod 400 key.pem` on Linux).
+
+---
+
+# 📝 Summary
+
+- SCP securely copies files using SSH.
+- Supports local ↔ remote and remote ↔ remote transfers.
+- Works with files and directories.
+- Commonly used in DevOps for deployments, backups, and log retrieval.
