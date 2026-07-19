@@ -479,3 +479,36 @@ ping 8.8.8.8
 ---
 
 
+### ✅ Troubleshoot Network Issues
+
+If a website is not opening, use:
+
+```bash
+ping example.com
+```
+
+If there is no response, the issue could be:
+- Network connection
+- DNS resolution
+- Firewall
+- Server downtime
+
+---
+
+## 💡 Best Practices
+
+- Use `ping -c 4` instead of continuous ping during testing.
+- Test both a hostname and an IP address to identify DNS issues.
+- A successful ping does not guarantee that all services (HTTP, SSH, etc.) are working.
+- Some servers disable ICMP replies, so a failed ping does not always mean the server is down.
+
+---
+
+
+## 📚 Summary
+
+- `ping` is used to test network connectivity.
+- It uses ICMP Echo Request and Echo Reply packets.
+- It helps measure latency and identify connectivity problems.
+- It is one of the most commonly used Linux networking commands for troubleshooting.
+
