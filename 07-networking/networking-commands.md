@@ -316,3 +316,14 @@ scp -i linux-dev.pem nginx.conf ubuntu@ec2-ip:/etc/nginx/
 - Supports local ↔ remote and remote ↔ remote transfers.
 - Works with files and directories.
 - Commonly used in DevOps for deployments, backups, and log retrieval.
+
+
+---
+
+## 📖 What is Ping?
+
+**Ping (Packet Internet Groper)** is a network diagnostic command used to check whether a remote host (server, website, or device) is reachable over a network.
+
+It sends **ICMP (Internet Control Message Protocol) Echo Request** packets to the destination and waits for **Echo Reply** packets. Based on the response, it measures network connectivity and latency.
+
+---
