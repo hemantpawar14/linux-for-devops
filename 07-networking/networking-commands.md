@@ -363,3 +363,15 @@ PING google.com (142.250.193.78) 56(84) bytes of data.
 ```
 
 ---
+
+### 2. Ping an IP Address
+
+```bash
+ping 8.8.8.8
+```
+
+This checks whether Google's public DNS server is reachable.
+
+---
+
+
