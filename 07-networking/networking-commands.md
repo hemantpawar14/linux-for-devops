@@ -374,4 +374,36 @@ This checks whether Google's public DNS server is reachable.
 
 ---
 
+### 3. Send Only 4 Packets
+
+```bash
+ping -c 4 google.com
+```
+
+Output stops automatically after sending four packets.
+
+---
+
+### 4. Specify Packet Size
+
+```bash
+ping -s 100 google.com
+```
+
+Sends packets with a size of 100 bytes.
+
+---
+
+### 5. Set Time Interval Between Packets
+
+```bash
+ping -i 2 google.com
+```
+
+Sends one packet every 2 seconds.
+
+---
+
+
+
 
