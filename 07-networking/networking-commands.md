@@ -434,5 +434,48 @@ ping -6 google.com
 
 ---
 
+## 📊 Understanding Ping Output
+
+Example:
+
+```text
+64 bytes from 142.250.193.78: icmp_seq=1 ttl=117 time=20.4 ms
+```
+
+| Field | Meaning |
+|-------|---------|
+| `64 bytes` | Size of the received packet |
+| `icmp_seq=1` | Sequence number of the packet |
+| `ttl=117` | Time To Live value |
+| `time=20.4 ms` | Round-trip response time |
+
+---
+
+
+## 🌍 Real-World DevOps Use Cases
+
+### ✅ Check if a Server is Reachable
+
+```bash
+ping 192.168.1.100
+```
+
+---
+
+### ✅ Verify Internet Connectivity
+
+```bash
+ping google.com
+```
+
+---
+
+### ✅ Test Connectivity to a DNS Server
+
+```bash
+ping 8.8.8.8
+```
+
+---
 
 
