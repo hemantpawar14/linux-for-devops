@@ -405,5 +405,34 @@ Sends one packet every 2 seconds.
 ---
 
 
+### 6. Ping IPv6 Address
+
+```bash
+ping6 google.com
+```
+
+or
+
+```bash
+ping -6 google.com
+```
+
+---
+
+## 📋 Common Options
+
+| Option | Description |
+|---------|-------------|
+| `-c` | Send a specific number of packets |
+| `-i` | Set interval between packets |
+| `-s` | Specify packet size |
+| `-4` | Use IPv4 only |
+| `-6` | Use IPv6 only |
+| `-W` | Set timeout for reply |
+| `-q` | Quiet output (summary only) |
+| `-f` | Flood ping (requires privileges) |
+
+---
+
 
 
