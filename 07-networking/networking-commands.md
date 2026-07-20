@@ -720,3 +720,21 @@ curl -O https://example.com/file.zip
 ```
 
 ---
+
+# 🔹 wget
+
+## Purpose
+Downloads files from the internet.
+
+```bash
+wget https://example.com/file.zip
+```
+
+Resume download
+
+```bash
+wget -c https://example.com/file.zip
+```
+
+---
+
