@@ -738,3 +738,71 @@ wget -c https://example.com/file.zip
 
 ---
 
+
+# 🔹 15. rsync
+
+## Purpose
+Synchronizes files and directories efficiently.
+
+Copy directory
+
+```bash
+rsync -av source/ destination/
+```
+
+Copy to remote server
+
+```bash
+rsync -av project/ ubuntu@192.168.1.10:/home/ubuntu/project/
+```
+
+Using SSH
+
+```bash
+rsync -av -e ssh project/ ubuntu@192.168.1.10:/home/ubuntu/project/
+```
+
+---
+
+# 🚀 Common DevOps Networking Workflow
+
+```text
+Check Internet
+      │
+      ▼
+ping google.com
+
+      │
+      ▼
+Check IP Address
+ip addr
+
+      │
+      ▼
+Verify DNS
+nslookup google.com
+dig google.com
+
+      │
+      ▼
+Check Open Ports
+ss -tuln
+
+      │
+      ▼
+Remote Login
+ssh ubuntu@server-ip
+
+      │
+      ▼
+Transfer Files
+scp / rsync
+
+      │
+      ▼
+Download Packages
+wget / curl
+```
+
+---
+
