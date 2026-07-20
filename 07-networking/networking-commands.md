@@ -696,3 +696,27 @@ sudo apt install dnsutils
 
 ---
 
+# 🔹 curl
+
+## Purpose
+Transfers data between client and server.
+
+Fetch webpage
+
+```bash
+curl https://example.com
+```
+
+Show only headers
+
+```bash
+curl -I https://example.com
+```
+
+Download a file
+
+```bash
+curl -O https://example.com/file.zip
+```
+
+---
