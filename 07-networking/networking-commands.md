@@ -512,3 +512,145 @@ If there is no response, the issue could be:
 - It helps measure latency and identify connectivity problems.
 - It is one of the most commonly used Linux networking commands for troubleshooting.
 
+---
+
+# 🔹 hostname
+
+## Purpose
+Displays the current hostname.
+
+### Example
+
+```bash
+hostname
+```
+
+Set a temporary hostname
+
+```bash
+sudo hostname dev-server
+```
+
+---
+
+# 🔹hostnamectl
+
+## Purpose
+Displays and manages hostname information.
+
+### Show hostname
+
+```bash
+hostnamectl
+```
+
+Change hostname permanently
+
+```bash
+sudo hostnamectl set-hostname dev-server
+```
+
+---
+
+# 🔹ip
+
+## Purpose
+Modern networking command used instead of ifconfig.
+
+Show IP address
+
+```bash
+ip addr
+```
+
+Show routing table
+
+```bash
+ip route
+```
+
+Show network interfaces
+
+```bash
+ip link
+```
+
+---
+
+# 🔹 ifconfig
+
+## Purpose
+Legacy command to view network interfaces.
+
+```bash
+ifconfig
+```
+
+> Note: Install net-tools if the command is unavailable.
+
+Ubuntu
+
+```bash
+sudo apt install net-tools
+```
+
+---
+
+
+# 🔹 ss
+
+## Purpose
+Shows active TCP/UDP connections and listening ports.
+
+Show listening ports
+
+```bash
+ss -tuln
+```
+
+Show all connections
+
+```bash
+ss -a
+```
+
+---
+
+# 🔹 netstat
+
+## Purpose
+Displays network statistics.
+
+Show listening ports
+
+```bash
+netstat -tuln
+```
+
+Show routing table
+
+```bash
+netstat -r
+```
+
+---
+
+
+# 🔹 8. traceroute
+
+## Purpose
+Shows the path packets travel.
+
+```bash
+traceroute google.com
+```
+
+Install
+
+Ubuntu
+
+```bash
+sudo apt install traceroute
+```
+
+---
