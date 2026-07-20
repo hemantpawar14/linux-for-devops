@@ -671,3 +671,28 @@ nslookup google.com 8.8.8.8
 ```
 
 ---
+
+
+# 🔹 dig
+
+## Purpose
+Advanced DNS troubleshooting tool.
+
+```bash
+dig google.com
+```
+
+Short answer
+
+```bash
+dig +short google.com
+```
+
+Install
+
+```bash
+sudo apt install dnsutils
+```
+
+---
+
