@@ -636,7 +636,7 @@ netstat -r
 ---
 
 
-# 🔹 8. traceroute
+# 🔹traceroute
 
 ## Purpose
 Shows the path packets travel.
@@ -651,6 +651,23 @@ Ubuntu
 
 ```bash
 sudo apt install traceroute
+```
+
+---
+
+# 🔹 nslookup
+
+## Purpose
+Resolves domain names using DNS.
+
+```bash
+nslookup google.com
+```
+
+Lookup using a specific DNS server
+
+```bash
+nslookup google.com 8.8.8.8
 ```
 
 ---
