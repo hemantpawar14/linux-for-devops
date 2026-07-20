@@ -806,3 +806,14 @@ wget / curl
 
 ---
 
+
+# 📌 Best Practices
+
+- Prefer `ip` over `ifconfig`.
+- Prefer `ss` over `netstat`.
+- Use SSH keys instead of passwords whenever possible.
+- Verify DNS before troubleshooting connectivity issues.
+- Use `rsync` for large or repeated file transfers.
+- Never expose private SSH keys in public repositories.
+
+---
