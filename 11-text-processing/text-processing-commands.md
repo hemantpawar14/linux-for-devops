@@ -97,4 +97,34 @@ awk '{print NF}' file.txt
 ---
 
 
+## 3. sed
+
+Used for editing text without opening the file.
+
+Replace a word
+
+```bash
+sed 's/Linux/Ubuntu/' file.txt
+```
+
+Replace globally
+
+```bash
+sed 's/Linux/Ubuntu/g' file.txt
+```
+
+Delete a line
+
+```bash
+sed '3d' file.txt
+```
+
+Print only specific line
+
+```bash
+sed -n '5p' file.txt
+```
+
+---
+
 
