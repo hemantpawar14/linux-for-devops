@@ -128,3 +128,41 @@ sed -n '5p' file.txt
 ---
 
 
+## 4. cut
+
+Extract specific fields.
+
+```bash
+cut -d ":" -f1 /etc/passwd
+```
+
+Extract first 10 characters
+
+```bash
+cut -c1-10 file.txt
+```
+
+---
+
+
+## 5. sort
+
+Sort file alphabetically.
+
+```bash
+sort file.txt
+```
+
+Numeric sort
+
+```bash
+sort -n marks.txt
+```
+
+Reverse order
+
+```bash
+sort -r file.txt
+```
+
+---
