@@ -66,3 +66,35 @@ grep -r "TODO" .
 
 ---
 
+## 2. awk
+
+Used for processing structured text and columns.
+
+Print first column
+
+```bash
+awk '{print $1}' file.txt
+```
+
+Print first and third column
+
+```bash
+awk '{print $1,$3}' file.txt
+```
+
+Print lines where second column > 100
+
+```bash
+awk '$2>100 {print}' file.txt
+```
+
+Print number of fields
+
+```bash
+awk '{print NF}' file.txt
+```
+
+---
+
+
+
