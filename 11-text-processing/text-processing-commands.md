@@ -19,3 +19,18 @@ Text processing commands are essential in Linux for searching, filtering, modify
 | wc | Count lines, words, and characters |
 
 ---
+
+
+# Why Learn Text Processing?
+
+These commands help to:
+
+- Search log files
+- Filter application output
+- Parse configuration files
+- Extract required data
+- Automate repetitive tasks
+- Process large datasets
+- Build shell scripts
+
+---
