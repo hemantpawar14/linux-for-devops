@@ -166,3 +166,35 @@ sort -r file.txt
 ```
 
 ---
+
+## 6. uniq
+
+Remove duplicate lines.
+
+```bash
+uniq file.txt
+```
+
+Count duplicates
+
+```bash
+uniq -c file.txt
+```
+
+---
+
+## 7. tr
+
+Replace characters.
+
+```bash
+echo "linux" | tr a-z A-Z
+```
+
+Delete characters
+
+```bash
+echo "abc123" | tr -d 0-9
+```
+
+---
