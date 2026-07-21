@@ -34,3 +34,35 @@ These commands help to:
 - Build shell scripts
 
 ---
+
+
+# Commands Covered
+
+## 1. grep
+
+Searches for text matching a pattern.
+
+```bash
+grep "error" logfile.txt
+```
+
+Search ignoring case
+
+```bash
+grep -i "linux" notes.txt
+```
+
+Show line numbers
+
+```bash
+grep -n "root" /etc/passwd
+```
+
+Recursive search
+
+```bash
+grep -r "TODO" .
+```
+
+---
+
