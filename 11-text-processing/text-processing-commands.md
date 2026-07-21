@@ -198,3 +198,25 @@ echo "abc123" | tr -d 0-9
 ```
 
 ---
+
+## 8. wc
+
+Count lines, words, and characters.
+
+```bash
+wc file.txt
+```
+
+Count only lines
+
+```bash
+wc -l file.txt
+```
+
+Count only words
+
+```bash
+wc -w file.txt
+```
+
+---
