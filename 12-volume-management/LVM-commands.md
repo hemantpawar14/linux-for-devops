@@ -82,10 +82,19 @@ Filesystem
 ![vg_creation](../images/vg-create.png)
 
 - Create a Logical Volume
+![lv_creation](../images/lv-create.png)
+
 - Format with ext4
+- ![format_ext4](../images/vg-create.png)
+
 - Mount the Logical Volume
+![lv_mount](../images/lv-mount.png)
+
 - Extend the Logical Volume
+![lv_extend](../images/lv-extend.png)
 - Resize the filesystem
-- Remove the Logical Volume
+
+![fs_resize](../images/fs-resize.png)
+
 
 ---
