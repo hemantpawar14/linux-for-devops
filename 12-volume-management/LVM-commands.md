@@ -98,3 +98,28 @@ Filesystem
 
 
 ---
+
+## 📖 Key Concepts
+
+- Physical Volume (PV)
+- Volume Group (VG)
+- Logical Volume (LV)
+- Filesystem
+- Mount Point
+- Storage Pool
+- Online Disk Expansion
+
+---
+
+## 📌 Learning Outcome
+
+After completing this section, I will be able to:
+
+- Understand LVM architecture
+- Create and manage LVM
+- Extend storage without downtime
+- Resize filesystems
+- Remove LVM safely
+- Troubleshoot common LVM issues
+
+---
