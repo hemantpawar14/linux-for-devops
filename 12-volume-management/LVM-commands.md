@@ -21,3 +21,33 @@ This section covers Linux Logical Volume Management (LVM), which allows flexible
 | Remove LVM | Delete logical volumes, groups, and physical volumes |
 
 ---
+
+## 📂 LVM Architecture
+
+```
+Hard Disk
+   │
+   ▼
++----------------+
+| Physical Volume|
+|     (PV)       |
++----------------+
+        │
+        ▼
++----------------+
+| Volume Group   |
+|     (VG)       |
++----------------+
+        │
+        ▼
++----------------+
+| Logical Volume |
+|     (LV)       |
++----------------+
+        │
+        ▼
+Filesystem
+(ext4 / xfs)
+```
+
+---
