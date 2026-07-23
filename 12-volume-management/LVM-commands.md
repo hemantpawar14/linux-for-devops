@@ -51,3 +51,24 @@ Filesystem
 ```
 
 ---
+
+## 🔥 Common Commands
+
+| Command | Description |
+|----------|-------------|
+| `pvcreate /dev/sdb` | Create Physical Volume |
+| `pvdisplay` | Show PV information |
+| `vgcreate data_vg /dev/sdb` | Create Volume Group |
+| `vgdisplay` | Show VG information |
+| `lvcreate -L 5G -n data_lv data_vg` | Create Logical Volume |
+| `lvdisplay` | Show LV information |
+| `mkfs.ext4 /dev/data_vg/data_lv` | Create filesystem |
+| `mount /dev/data_vg/data_lv /mnt/data` | Mount logical volume |
+| `lvextend -L +2G /dev/data_vg/data_lv` | Extend LV |
+| `resize2fs /dev/data_vg/data_lv` | Resize ext4 filesystem |
+| `lvreduce -L 4G /dev/data_vg/data_lv` | Reduce LV |
+| `lvremove /dev/data_vg/data_lv` | Remove Logical Volume |
+| `vgremove data_vg` | Remove Volume Group |
+| `pvremove /dev/sdb` | Remove Physical Volume |
+
+---
