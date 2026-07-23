@@ -85,7 +85,7 @@ Filesystem
 ![lv_creation](../images/lv-create.png)
 
 - Format with ext4
-- ![format_ext4](../images/vg-create.png)
+- ![format_ext4](../images/formatext4.png)
 
 - Mount the Logical Volume
 ![lv_mount](../images/lv-mount.png)
