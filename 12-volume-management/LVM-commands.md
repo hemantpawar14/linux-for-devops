@@ -72,3 +72,20 @@ Filesystem
 | `pvremove /dev/sdb` | Remove Physical Volume |
 
 ---
+
+## 🛠 Hands-on Practice
+
+- Create a Physical Volume
+![pv_creation](../images/pv-create.png)
+
+- Create a Volume Group
+![vg_creation](../images/vg-create.png)
+
+- Create a Logical Volume
+- Format with ext4
+- Mount the Logical Volume
+- Extend the Logical Volume
+- Resize the filesystem
+- Remove the Logical Volume
+
+---
