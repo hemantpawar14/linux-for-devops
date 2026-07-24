@@ -19,16 +19,23 @@ A Bash script that monitors the health of a Linux server by collecting system in
 - Bash Scripting
 - AWS EC2
 
-## Commands Used
+## 📚 Commands Used
 
-- hostname
-- date
-- uptime
-- free
-- df
-- who
-- top
-
+| Command | Description |
+|---------|-------------|
+| `#!/bin/bash` | Specifies that the script should be executed using the Bash shell. |
+| `echo` | Prints text and section headers to the terminal. |
+| `hostname` | Displays the hostname of the Linux server. |
+| `date` | Shows the current system date and time. |
+| `uptime -p` | Displays how long the system has been running in a human-readable format. |
+| `free -h` | Shows memory usage (RAM and Swap) in a human-readable format. |
+| `df -h /` | Displays disk usage statistics for the root (`/`) filesystem. |
+| `uptime` | Displays the current time, uptime, logged-in users, and system load averages. |
+| `who` | Lists all users currently logged into the system. |
+| `chmod +x health-monitor.sh` | Grants execute permission to the Bash script. |
+| `./health-monitor.sh` | Executes the Server Health Monitoring script. |
+| `./health-monitor.sh > sample-report.txt` | Redirects the script output to a report file. |
+| `cat sample-report.txt` | Displays the contents of the generated report file. |
 ---
 ## 🚀 How to Run
 
